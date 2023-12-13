@@ -1,0 +1,38 @@
+.top-main {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  color: aliceblue;
+  border-radius: 8px;
+  border: 2px solid white;
+  padding-left: 20px;
+  padding-right: 20px;
+  z-index: 1;
+}
+
+
+.top-head {
+    flex: 1; 
+    text-align: center; 
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 30px;
+}
+
+/* Media query for smaller screens such as phones */
+@media screen and (max-width: 800px) {
+  .top-head
+  {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .top-head
+  {
+    font-size: 19px;
+  }
+}
